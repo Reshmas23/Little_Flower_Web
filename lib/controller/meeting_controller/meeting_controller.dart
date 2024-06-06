@@ -97,8 +97,8 @@ class MeetingController extends GetxController {
           'date': editdateController.text,
           'time': edittimeController.text,
           'category': editcategoryController.text,
-          'member': editmemberController.text,
-          'specialguest': editspecialguestController.text,
+          'members': editmemberController.text,
+          'specialGuest': editspecialguestController.text,
           'venue': editvenueController.text,
         })
         .then((value) => Navigator.pop(context))
