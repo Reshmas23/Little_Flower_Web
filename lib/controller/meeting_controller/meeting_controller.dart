@@ -133,4 +133,17 @@ class MeetingController extends GetxController {
       controller.text = formattedDate;
     }
   }
+
+  Future<void> selectTimesec(
+      BuildContext context, TextEditingController controller) async {
+    final TimeOfDay? selectedTime = await showTimePicker(
+      context: context,
+      initialTime: TimeOfDay.now(),
+    );
+
+    if (selectedTime != null) {
+      final String formattedTime = selectedTime.format(context);
+      controller.text = formattedTime;
+    }
+  }
 }
