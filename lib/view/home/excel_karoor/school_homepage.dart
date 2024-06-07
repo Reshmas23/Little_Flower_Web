@@ -148,7 +148,7 @@ class SchoolHOmeScreen extends StatelessWidget {
                                           ),
                                         ),
                                       ),
-                                      // const SizedBox(
+                                      //  const SizedBox(
                                       //   width: 50,
                                       // ),
                                       // SizedBox(

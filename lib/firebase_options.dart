@@ -53,12 +53,12 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB6wDhqocWpXPNBCgyAsd-yZoElG5WfQMY',
-    appId: '1:270967599909:web:efcb12e73cd3b95497a0cc',
-    messagingSenderId: '270967599909',
-    projectId: 'little-flower-mananthavady-j-5',
-    authDomain: 'little-flower-mananthavady-j-5.firebaseapp.com',
-    storageBucket: 'little-flower-mananthavady-j-5.appspot.com',
-    measurementId: 'G-42QX9KFD2W',
+    apiKey: 'AIzaSyDFGyqlJwKLBFEmoGzlfLZfXn6XzFjUUDU',
+    appId: '1:10906000935:web:3ebec643eccb5f8160b802',
+    messagingSenderId: '10906000935',
+    projectId: 'little-flower-bb60b',
+    authDomain: 'little-flower-bb60b.firebaseapp.com',
+    storageBucket: 'little-flower-bb60b.appspot.com',
+    measurementId: 'G-WXT0QCV5M7',
   );
 }
